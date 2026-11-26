@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "admin",
+      "language": "fa",
+      "phone": "",
+      "created_at": "2026-11-09 09:02"
+    },
+    {
+      "username": "arad",
+      "password": "2f42ae211b182f118d1e313ff243b266db5e324ce20d21a0191d1c20959eae3d",
+      "role": "customer",
+      "language": "fa",
+      "phone": "",
+      "created_at": "2026-11-09 09:03"
+    }
+  ],
+  "orders": [
+    {
+      "code": "PP-1001",
+      "username": "arad",
+      "origin_name": "tehran",
+      "origin_latitude": 35.28,
+      "origin_longitude": 51.31,
+      "destination_name": "custom_point",
+      "destination_latitude": 34.47,
+      "destination_longitude": 51.08,
+      "distance_km": 92.5,
+      "weight_kg": 1.0,
+      "parcel_type": "fragile",
+      "receiver_name": "",
+      "receiver_phone": "",
+      "notes": "",
+      "cost_dollar": 33.75,
+      "cost_toman": 3375000,
+      "dollar_rate": 100000,
+      "status": "registered",
+      "created_at": "2026-11-19 04:51",
+      "history": [
+        {
+          "status": "registered",
+          "date": "2026-11-19 04:51"
+        }
+      ]
+    },
+    {
+      "code": "PP-1002",
+      "username": "arad",
+      "origin_name": "custom_point",
+      "origin_latitude": 37.81,
+      "origin_longitude": 48.31,
+      "destination_name": "tehran",
+      "destination_latitude": 35.12,
+      "destination_longitude": 51.38,
+      "distance_km": 406.0,
+      "weight_kg": 2.3,
+      "parcel_type": "express",
+      "receiver_name": "arad",
+      "receiver_phone": "123",
+      "notes": "کفش",
+      "cost_dollar": 174.9,
+      "cost_toman": 17490000,
+      "dollar_rate": 100000,
+      "status": "registered",
+      "created_at": "2026-11-19 05:01",
+      "history": [
+        {
+          "status": "registered",
+          "date": "2026-11-19 05:01"
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "number": 1,
+      "username": "arad",
+      "subject": "شاهکار",
+      "status": "answered",
+      "created_at": "2026-11-19 04:53",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "اپ بسيار شاهکار است",
+          "date": "2026-11-19 04:53"
+        },
+        {
+          "sender": "admin",
+          "text": "ميدونم",
+          "date": "2026-11-19 04:56"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "dollar_rate": 270000,
+    "next_order_number": 1003,
+    "next_ticket_number": 2
+  }
+}
